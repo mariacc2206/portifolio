@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Maria Clara, estudante de Tecnologia da Informação.">
+  <title>Maria Clara — Portfólio pessoal</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topbar" id="topo">
+    <nav class="nav shell" aria-label="Navegação principal">
+      <a class="brand" href="#inicio" aria-label="Maria Clara, início">m<span>.</span>c</a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="menu">
+        <li><a href="#sobre">sobre</a></li>
+        <li><a href="#habilidades">habilidades</a></li>
+        <li><a href="#projetos">projetos</a></li>
+        <li><a href="#contato">contato</a></li>
+      </ul>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Ativar modo escuro" title="Alternar tema">☾</button>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero shell" id="inicio">
+      <div class="hero-stamp" aria-hidden="true">PORTFÓLIO<br>2026</div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-star">✳</span> estudante de tecnologia · natal, rn</p>
+        <p class="greeting" id="saudacao">Olá! Seja bem-vindo(a).</p>
+        <h1>Maria<br><em>Clara.</em></h1>
+        <p class="hero-role">Aprendendo código.<br><span>Criando possibilidades.</span></p>
+        <p class="hero-description">Sou estudante de Tecnologia da Informação e estou construindo meu caminho no desenvolvimento web, um projeto de cada vez.</p>
+        <a class="pill-link" href="#projetos">Explorar meus projetos <span aria-hidden="true">↘</span></a>
+      </div>
+
+      <div class="hero-art">
+        <div class="art-circle circle-back" aria-hidden="true"></div>
+        <div class="portrait-card">
+          <img src="images/minha-foto.jpeg" id="profile-photo" alt="Foto de Maria Clara">
+          <div class="portrait-placeholder" id="photo-placeholder">
+            <span>MC</span>
+            <p>Sua foto aqui</p>
+            <small>images/minha-foto.jpeg</small>
+          </div>
+          <div class="portrait-caption">em constante construção <span>♡</span></div>
+        </div>
+        <div class="sticker sticker-top" aria-hidden="true">criatividade<br>em processo</div>
+        <div class="sticker sticker-bottom" aria-hidden="true">HTML + CSS<br>+ JavaScript</div>
+        <div class="art-circle circle-front" aria-hidden="true"></div>
+      </div>
+      <a class="scroll-cue" href="#sobre"><span>↓</span> role para conhecer</a>
+    </section>
+
+    <section class="about section shell" id="sobre">
+      <div class="section-index"><span>01</span> / sobre mim</div>
+      <div class="about-layout">
+        <h2>Não sei<br>tudo ainda.<br><em>E é aí que<br>começa.</em></h2>
+        <div class="about-text">
+          <p class="lead">Oi! Eu sou a Maria Clara, estudante do ensino médio e do curso técnico em Tecnologia da Informação.</p>
+          <p>Tenho aprendido programação, desenvolvimento web e banco de dados por meio das atividades do curso. Gosto de descobrir como as coisas funcionam e transformar o que aprendo em projetos práticos.</p>
+          <p>Meu objetivo é continuar evoluindo, ganhar experiência e buscar uma oportunidade de estágio na área de tecnologia.</p>
+          <div class="signature">Maria Clara <span>♡</span></div>
+        </div>
+      </div>
+      <div class="values-strip">
+        <span>curiosidade</span><span>organização</span><span>criatividade</span><span>trabalho em equipe</span>
+      </div>
+    </section>
+
+    <section class="skills section" id="habilidades">
+      <div class="shell">
+        <div class="section-index"><span>02</span> / caixa de ferramentas</div>
+        <div class="skills-heading">
+          <h2>O que estou<br><em>aprendendo.</em></h2>
+          <p>Conhecimentos que estou desenvolvendo durante o curso. Cada tecnologia é mais uma ferramenta para tirar ideias do papel.</p>
+        </div>
+        <div class="skills-list">
+          <article class="skill-row"><span class="skill-number">01</span><h3>HTML <small>estrutura</small></h3><p>Organizar o conteúdo de páginas web com semântica.</p><span class="skill-mark">✳</span></article>
+          <article class="skill-row"><span class="skill-number">02</span><h3>CSS <small>visual</small></h3><p>Estilização, layouts com Flexbox e Grid e responsividade.</p><span class="skill-mark">✳</span></article>
+          <article class="skill-row"><span class="skill-number">03</span><h3>JavaScript <small>interação</small></h3><p>Eventos, interações e validação de formulários.</p><span class="skill-mark">✳</span></article>
+          <article class="skill-row"><span class="skill-number">04</span><h3>Python + Flask <small>lógica web</small></h3><p>Rotas e aplicações web simples.</p><span class="skill-mark">✳</span></article>
+          <article class="skill-row"><span class="skill-number">05</span><h3>SQLite + SQL <small>dados</small></h3><p>Tabelas, registros e consultas em banco de dados.</p><span class="skill-mark">✳</span></article>
+        </div>
+        <p class="skills-footnote">Nível atual: em aprendizado — e tudo bem começar do começo.</p>
+      </div>
+    </section>
+
+    <section class="projects section shell" id="projetos">
+      <div class="section-index"><span>03</span> / coisas que construí</div>
+      <div class="projects-heading">
+        <h2>Projetos com<br><em>propósito.</em></h2>
+        <p>Trabalhos acadêmicos que me ajudaram a praticar conceitos e entender melhor o desenvolvimento de sistemas.</p>
+      </div>
+
+      <article class="project project-one">
+        <div class="project-number">01</div>
+        <div class="project-visual visual-library" aria-hidden="true"><span class="visual-symbol">▤</span><span class="visual-label">organizar · consultar · aprender</span></div>
+        <div class="project-info">
+          <p class="project-category">web / banco de dados</p>
+          <h3>Sistema de biblioteca</h3>
+          <p>Uma aplicação acadêmica para visualizar e organizar informações de uma biblioteca, conectando Flask a um banco de dados SQLite.</p>
+          <div class="tech-tags"><span>Python</span><span>Flask</span><span>SQLite</span></div>
+        </div>
+      </article>
+
+      <article class="project project-two">
+        <div class="project-number">02</div>
+        <div class="project-visual visual-vote" aria-hidden="true"><span class="visual-symbol">✓</span><span class="visual-label">escolher · registrar · mostrar</span></div>
+        <div class="project-info">
+          <p class="project-category">lógica / interação</p>
+          <h3>Sistema de votação</h3>
+          <p>Projeto para praticar opções de voto, formulários e apresentação dos resultados, trabalhando a lógica de uma aplicação interativa.</p>
+          <div class="tech-tags"><span>Python</span><span>Flask</span><span>HTML</span></div>
+        </div>
+      </article>
+
+      <article class="project project-three">
+        <div class="project-number">03</div>
+        <div class="project-visual visual-delivery" aria-hidden="true"><span class="visual-symbol">♡</span><span class="visual-label">cardápio · clientes · pedidos</span></div>
+        <div class="project-info">
+          <p class="project-category">site / organização</p>
+          <h3>Sistema de delivery</h3>
+          <p>Site acadêmico com páginas para apresentar um cardápio e organizar informações relacionadas a clientes, lanches e pedidos.</p>
+          <div class="tech-tags"><span>HTML</span><span>CSS</span><span>Flask</span></div>
+        </div>
+      </article>
+      <p class="project-reminder">* Descrições resumidas: ajustar para refletir exatamente as funcionalidades implementadas nos seus trabalhos.</p>
+    </section>
+
+    <section class="contact section" id="contato">
+      <div class="shell contact-layout">
+        <div class="contact-copy">
+          <div class="section-index"><span>04</span> / contato</div>
+          <h2>Uma boa ideia<br>começa com<br><em>uma conversa.</em></h2>
+          <p>Use o formulário para demonstrar como seria um contato profissional.</p>
+          <div class="contact-note">Nota de privacidade: este formulário valida os campos no navegador, mas não envia nem armazena as informações.</div>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-topline"><span>ESCREVA AQUI</span><span>♡</span></div>
+          <div class="field">
+            <label for="nome">Seu nome</label>
+            <input id="nome" name="nome" type="text" autocomplete="name" required minlength="2" maxlength="80" aria-describedby="erro-nome">
+            <small class="error" id="erro-nome"></small>
+          </div>
+          <div class="field">
+            <label for="email">Seu e-mail</label>
+            <input id="email" name="email" type="email" autocomplete="email" required maxlength="120" aria-describedby="erro-email">
+            <small class="error" id="erro-email"></small>
+          </div>
+          <div class="field">
+            <label for="mensagem">Sua mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required minlength="10" maxlength="1000" aria-describedby="erro-mensagem"></textarea>
+            <small class="error" id="erro-mensagem"></small>
+          </div>
+          <div class="consent">
+            <input id="consentimento" name="consentimento" type="checkbox" required aria-describedby="erro-consentimento">
+            <label for="consentimento">Concordo em usar os dados informados apenas para responder a esta mensagem.</label>
+          </div>
+          <small class="error" id="erro-consentimento"></small>
+          <button class="send-button" type="submit">Validar mensagem <span>↗</span></button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-inner">
+      <a class="brand" href="#topo" aria-label="Voltar ao início">m<span>.</span>c</a>
+      <p>Feito por Maria Clara · <span id="ano"></span></p>
+      <a href="#topo" class="top-link">voltar ao topo ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
